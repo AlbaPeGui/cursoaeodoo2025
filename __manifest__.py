@@ -9,13 +9,17 @@
     'depends': [
         'base',
     ],
-    'data':[
+    'icon': 'music_school_nacho/icon.png',
+    'data': [
         'security/res_groups.xml',
         'security/ir.model.access.csv',
         'views/music_school_student_views.xml',
         'views/music_school_instrument_views.xml',
         'views/music_school_teacher_views.xml',
         'views/music_school_course_views.xml',
+        'views/music_school_classroom_views.xml',
+        'views/music_school_lesson_views.xml',
         'views/music_school_menuitems.xml',
+
     ]
 }
